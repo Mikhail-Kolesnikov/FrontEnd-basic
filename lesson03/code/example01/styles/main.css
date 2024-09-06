@@ -1,0 +1,48 @@
+
+* {
+    font-size: 10px
+}
+
+.biggerfont {
+    font-size: 100px;
+}
+
+h1 {
+    background-color: aqua !important;
+    color: ghostwhite;
+}
+
+p {
+    background-color: bisque;
+}
+
+#first-p {
+    background-color: blanchedalmond;
+}
+
+.redbg {
+    background-color: brown;
+}
+
+p a {
+    color: blueviolet;
+}
+
+#first-p:hover {
+    background-color: darkgoldenrod;
+}
+.first-div{
+    background-color: yellowgreen;
+}
+.inner-div{
+    background-color: lawngreen;
+    height: 100px;
+    width: 100px;
+}
+.formatted-text{
+    color: chocolate;
+    font-style: italic;
+}
+.special-color{
+    background-color: brown;
+}

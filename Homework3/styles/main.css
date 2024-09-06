@@ -1,0 +1,27 @@
+h1{
+    height: 100px
+    
+    
+}
+.train{
+    background-color: red;
+}
+.main{
+    background-color: blue;
+    height: 300px;
+}
+#train{
+    font-size: 18px;
+    color: white;
+}
+.footer{
+    height: 100px;
+    background-color: green;
+}
+.end{
+    font-size: 18px;
+    color: white;
+}
+.text{
+    background-color: red;
+}
