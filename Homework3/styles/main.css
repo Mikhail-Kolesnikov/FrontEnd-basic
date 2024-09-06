@@ -25,3 +25,8 @@ h1{
 .text{
     background-color: red;
 }
+.ty{
+    width: 100%;
+    writing-mode: vertical-rl;
+    font-size: 70px;
+}
