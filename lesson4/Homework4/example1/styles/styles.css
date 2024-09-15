@@ -1,7 +1,12 @@
-h1{
-    margin: 10px 10px 0 0 0 ;
+*{
+    margin: 0;
     padding: 0;
-    height: 150px;
+}
+
+header{
+    margin: 0 0 10px 0 ;
+    padding: 0;
+    height: 20vh;
     background-color: chocolate;
     text-align: center;
     font-size: 24px;
@@ -11,22 +16,26 @@ h1{
     background-color: blueviolet; */
 
 
+main{
+    height: calc(100vh - 20vh - 20vh - 10px - 10px);
+    text-align: center;
+    font-size: 24px;
+    background-color: blueviolet;
+
+}
+
 footer{
     margin: 10px 0 0 0 ;
     padding: 0;
-    height: 150px;
+    height: 20vh;
     background-color: chocolate;
     text-align: center;
     font-size: 24px;
 }
-main{
-    height: 60vh;
-    text-align: center;
-    font-size: 24px;
-    background-color: blueviolet;
-}
 button{
     display: block;
+    border: 0;
+    border-radius: 50%;
     background-color: blue;
     margin: 30px auto;
     padding: 10px 30px
