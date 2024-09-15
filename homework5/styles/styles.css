@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    height: calc(100vh - 2px - 24px - 5px);
+    border: solid 2px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.text{
+    position: absolute;
+    background-color:yellow;
+    font-size: 24px;
+    right: 20px;
+    top: 20px;
+
+}
