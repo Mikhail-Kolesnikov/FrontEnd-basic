@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    
+    
+}
+.header{
+    margin: 0 0 10px 0;
+    height: 10vh;
+    text-align: center;
+
+    background-color: aqua;
+
+}
+.nav{
+    height: 5vh;
+    margin: 10px 0 10px 0;
+    background-color: fuchsia;
+    text-align: center;
+    font-size: 30px;
+
+}
+.foot{
+    height: 10vh;
+    background-color: brown;
+    margin: 10px 0 0 0;  
+    text-align: center;
+    font-size: 30px;
+}
+.one{
+    display: flex;
+    flex: 1;
+    
+
+}
+.sec{
+    background-color: yellow;
+    flex: 1;
+}
+.art{
+    background-color: darkcyan;
+    flex: 1;
+}
+.as{
+    background-color: black;
+    flex: 1;
+    font-size: 30px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+

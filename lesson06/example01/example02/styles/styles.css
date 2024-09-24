@@ -1,0 +1,19 @@
+.parents {
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    padding-right: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 60px; 
+    align-items: center;
+}
+.kids {
+    /* width: 40px;
+    height: 40px; */
+    background-color: blueviolet;
+    border: solid 2px black;
+    font-size: 25px;
+    
+
+}

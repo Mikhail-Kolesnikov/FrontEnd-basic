@@ -15,8 +15,10 @@
 .text {
     position: absolute;
     background-color: yellow;
-    top: 10px;
-    right: 10px;
+    font-size: 24px;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
 
 
 }
