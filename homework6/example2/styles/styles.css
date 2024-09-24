@@ -1,25 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     height: 100vh;
-    
-    
-    
+
+
+
 }
-.header{
-    margin: 5px ;
+
+.header {
+    margin: 5px;
     height: 10vh;
     text-align: center;
     font-size: 30px;
     background-color: aqua;
 
 }
-.nav{
+
+.nav {
     height: 5vh;
     margin: 0 5px 5px 5px;
     background-color: fuchsia;
@@ -27,43 +30,47 @@ body{
     font-size: 30px;
 
 }
-.foot{
+
+.foot {
     height: 10vh;
     background-color: brown;
-    margin: 5px;  
+    margin: 5px;
     text-align: center;
     font-size: 30px;
 }
-.one{
+
+.one {
     display: flex;
     flex: 1;
-    
+
 
 }
-.sec{
+
+.sec {
     background-color: yellow;
     flex: 1;
     font-size: 30px;
     text-align: center;
 }
-.art{
+
+.art {
     background-color: darkcyan;
     flex: 1;
     font-size: 30px;
     text-align: center;
 }
-.as{
+
+.as {
     background-color: black;
     flex: 1;
     font-size: 30px;
     color: white;
     margin: 0 5px 0 0;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     flex: 3;
     margin: 0 0 0 5px;
 }
-
-
