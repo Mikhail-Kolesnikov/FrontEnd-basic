@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./example1/styles.css">
+    <script src="./example1/scripts/main.js" defer></script>
+</head>
+
+<body>
+    <h1>Калькулятор индекса массы тела</h1>
+    <div class="forHeight">
+        <label for="height"> Введите ваш рост</label>
+        <input type="number" id="height">
+    </div>
+    <br>
+    <div class="forWeight">
+        <label for="weight">Введите ваш вес</label>
+        <input type="number" id="weight">
+    </div>
+    <br>
+    <div class="result">
+        <button onclick="resOfBMI()">Расчитать индекс массы тела</button>
+    </div>
+
+    <div id="BMI"></div>
+
+
+</body>
+
+</html>
