@@ -16,7 +16,7 @@ function resOfBMI() {
 
     let rang = "";
     if (bmiRounded < 18) {
-        OfflineAudioCompletionEvent.log("Норма");
+        console.log("Норма");
         rang = "Норма";
     }
     else if (bmiRounded < 25) {
