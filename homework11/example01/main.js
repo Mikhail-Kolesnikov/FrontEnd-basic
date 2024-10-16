@@ -19,7 +19,5 @@ const arrToObject = (arr) => {
 }
 console.log(arrToObject(['a', 36.6, 'John Doe']));
 
-function helloFunction() {
-    console.log('hello')
-}
+
 
