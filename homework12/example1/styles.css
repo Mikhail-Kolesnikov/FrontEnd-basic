@@ -1,0 +1,27 @@
+*{
+    
+    background-color: bisque;
+    
+}
+
+rang{
+    color: blue;
+}
+.forHeight{
+    color: rgb(79, 145, 142);
+}
+.forWeight{
+    color: green;
+}
+#weight{
+    background-color: brown;
+}
+#height{
+    background-color: brown;
+}
+#BMI{
+    color: darkcyan;
+}
+#rang{
+    color: chocolate;
+}
