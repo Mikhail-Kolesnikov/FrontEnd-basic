@@ -16,15 +16,15 @@ function resOfBMI() {
 
     let rang = "";
     if (bmiRounded < 18) {
-        console.log("Норма");
+        //console.log("Норма");
         rang = "Норма";
     }
     else if (bmiRounded < 25) {
-        console.log("Начало ожирения");
+        //console.log("Начало ожирения");
         rang = "Начало ожирения";
     }
-    else if (bmiRounded < 30) {
-        console.log("Ожирение");
+    else  {
+        //console.log("Ожирение");
         rang = "Ожирение";
     }
     document.getElementById('rang').textContent = rang;
