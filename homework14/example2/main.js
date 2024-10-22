@@ -23,22 +23,29 @@ let players = [
     { name: "Roman", height: 184, weight: 78, sport: "football" }
 ];
 
-const playersAndWords = (player, leter) => {
+const playersAndWords = (player, letter) => {
     //const listOfplayers = [];
 
-   
-        if (player.name.startsWith(leter)) {
-            player.push(player);
-            
 
-        }
-        return player;
+    //if (player.name.startsWith(leter)) {
+    // player.push(player);
 
-   
-    
 
+
+    return player.name.startsWith(letter);
 
 
 };
-const resInMap = players.map(playersAndWords);
-console.log(playersAndWords(resInMap, 'A'));
+
+
+
+
+
+
+
+const filterOfPlaers = (players, letter) => {
+    return players.filter(player => playersAndWords(player, letter));
+};
+const resInMap = filterOfPlaers(players, 'A');
+
+console.log(resInMap);
