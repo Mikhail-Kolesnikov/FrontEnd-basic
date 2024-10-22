@@ -4,18 +4,17 @@
 //{ a: 'a', '36.6': 36.6, 'John Doe': 'John Doe' } ==> { a: { value: 'a', type: 'string' }, 
 //'36.6': { value: 36.6, type: 'number' }, 'John Doe': { value: 'John Doe', type: 'string' } }
 
-const objAndValue = { a: 'a', '36.6': 36.6, 'John Doe': 'John Doe' };
-
+const objAndValue = { a: 45, b : true, c :'abc'};
 const obj = (n) => {
 
     const objToValue = {};
 
 
     Object.entries(n).forEach((element) => {
-        objToValue[element[1]] = typeof element[0];
-    obj.objToValue
+        objToValue[element[0]] =  { value: element[1], type: typeof element[1] };//typeof element[1];
+        
 
-       
+
     });
 
     return objToValue;
