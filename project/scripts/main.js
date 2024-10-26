@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
 
-        filteredTodos.forEach(todo => {
+        filterForTodo.forEach(todo => {
             const li = document.createElement('li');
             li.className = todo.completed ? 'completed' : '';
             li.textContent = todo.text;
