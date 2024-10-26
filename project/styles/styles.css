@@ -24,7 +24,7 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     border-radius: 4px;
 }
 
@@ -33,13 +33,13 @@ button {
     margin: 5px;
     border: none;
     border-radius: 4px;
-    background-color: #28a745;
+    background-color: green;
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: green;
 }
 
 .allButtons button {
