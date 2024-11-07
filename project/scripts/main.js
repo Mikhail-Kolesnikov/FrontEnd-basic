@@ -45,11 +45,25 @@ document.addEventListener('DOMContentLoaded', function () {
             renderTodos();
         }
     }
+    function loadTodos() {
+        fetch('https://jsonplaceholder.typicode.com/todos')
+            .then(response => response.json())
+            .then(data => {
+                arrTodo = data.slice(0, 15).map(todo => ({
+                    id: todo.id,
+                    text: todo.title,
+                    completed: todo.completed
+                }));
+                renderTodos();
+            })
+            .catch(error => console.error('Error fetching todos:', error));
+    }
 
 
     addValue.addEventListener('click', addTodo);
     allButton.addEventListener('click', () => renderTodos('all'));
     completedButton.addEventListener('click', () => renderTodos('completed'));
     activeButton.addEventListener('click', () => renderTodos('active'));
+    loadTodos();
 });
 
